@@ -13,12 +13,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className={`${styles.title} text-3xl font-bold underline`}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{' test '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
